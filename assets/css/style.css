@@ -71,7 +71,7 @@ aside #maria {
     color: white;
     padding: 20px 60px;
     text-align: center;
-    font-size: 20px;    
+    font-size: 20px;      
 }
 
 .button {
@@ -88,6 +88,7 @@ aside #maria {
 }
 /* Termino Section Button */
 
+
 /* Inicio Section chats */
 
 #chat-activo {
@@ -97,6 +98,8 @@ aside #maria {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 400;
+    overflow: hidden;
+    height: calc(100vh - 269px);
 }
 
 .borde-chat {
@@ -129,7 +132,6 @@ aside #maria {
     padding-left: 20px;
 }
 
-
 .borde-chat :nth-child(1)  {    
     transition-duration: 0.4s;
 }    
@@ -138,6 +140,31 @@ aside #maria {
     background-color: #CDC3E6;
     color: white;
 }
+
+/* Scroll section 3 varios chat*/
+
+#chat-activo {
+    display: block;
+    max-height: 80vh;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+#chat-activo::-webkit-scrollbar {
+    width: 12px;
+}
+#chat-activo::-webkit-scrollbar-track {
+    box-shadow: none;
+    -webkit-box-shadow: inset 0 0 6px #A491D2; 
+    border-radius: 10px;
+}
+#chat-activo::-webkit-scrollbar-thumb {
+    box-shadow: none;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #A491D2;
+}
+
+/* Scroll section 3 varios chat*/
 
 /* Termino Section chats */
 
@@ -155,6 +182,7 @@ aside #maria {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 #contenedor_chat > section:nth-child(1) {
