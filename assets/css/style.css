@@ -40,7 +40,7 @@ p {
     border-bottom-width: 0;
 }
 
-#maria > article:nth-child(1) {
+#maria > article {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,7 +48,7 @@ p {
     line-height: 20px;
 }
 
-#maria > article:nth-child(1) > img {
+#maria > article > img {
     width: 45px;
     border-radius: 30px;
     border: 2px solid #E8EBE4;
@@ -59,14 +59,12 @@ p {
     font-size: 15px;
 }
 
-#maria > div:nth-child(2) {
+#maria i {
     font-size: 25px;
-    color: #828485;
-}
-
-section i {
+    color: #828485;    
     padding-left: 15px;
 }
+
 
 /* Termino Section Maria */
 
@@ -80,7 +78,7 @@ section i {
     border-bottom-width: 0;
 }
 
-#button div:nth-of-type(1) {
+#button > div {
     background-color: #A491D2; 
     color: white;
     padding: 20px 60px;
@@ -88,16 +86,16 @@ section i {
     font-size: 20px;      
 }
 
-#button div:nth-of-type(1) {
+#button > div {
     transition-duration: 0.4s;    
 }
   
-#button div:nth-of-type(1):hover {
+#button > div:hover {
     background-color: #CDC3E6;
     color: white;
 }
 
-#button div:nth-of-type(1):active {
+#button > div:active {
     background-color: #DADCFF;
 }
 /* Termino Section Button */
@@ -125,7 +123,7 @@ section i {
     border-bottom-width: 0;
 }
 
-#chat-activo div:nth-child(2) {
+#chat-activo div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -139,10 +137,7 @@ section i {
     border-radius: 35px;
     border: 3px solid #E8EBE4;
 }
-
-.borde-chat :nth-child(1)  {    
-    transition-duration: 0.4s;
-}    
+ 
       
 #chat-activo :hover {
     background-color: #CDC3E6;
@@ -190,7 +185,6 @@ section i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #contenedor_chat > section:nth-child(1) {
