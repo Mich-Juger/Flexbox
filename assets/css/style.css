@@ -76,6 +76,7 @@ p {
     height: 170px;
     border: 2px solid #E8EBE4;
     border-bottom-width: 0;
+    cursor: pointer;
 }
 
 #button > div {
@@ -121,6 +122,7 @@ p {
     width: calc(100% - 4px);
     border: 2px solid #E8EBE4;
     border-bottom-width: 0;
+    cursor: pointer;
 }
 
 #chat-activo div {
